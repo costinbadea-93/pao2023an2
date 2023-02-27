@@ -158,9 +158,30 @@ public class Main {
 //
 //        //clasa scanner
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Introduceti o valoare de la tastatura");
-        int valueFromConsole = scanner.nextInt();
-        System.out.println("Ati introdus: " + valueFromConsole);
+//        System.out.println("Introduceti o valoare de la tastatura");
+//        int valueFromConsole = scanner.nextInt();
+//        System.out.println("Ati introdus: " + valueFromConsole);
+
+        System.out.println("a=");
+        int a = scanner.nextInt();
+
+        System.out.println("b=");
+        int b = scanner.nextInt();
+
+        System.out.println("Operatie: ");
+        String op = scanner.next();
+
+        switch (op) {
+            case ("+"):
+                System.out.println(a + b);
+                break;
+            case ("*"):
+                System.out.println(a * b);
+                break;
+            default:
+                System.out.println("invalid op");
+                break;
+        }
 //
 //        int sum = 0;
 //        while(true){
