@@ -198,5 +198,6 @@ public class Main {
 //        var i2 = 'c';
 //        var i3 = false;
 
+        Long h = 10L;
     }
 }
